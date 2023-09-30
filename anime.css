@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/georgia');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+    overflow-y: scroll;
+    color:blueviolet;
+}
+
+/* navigation menu*/
+nav ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor:pointer;
+    color: white;
+    gap:25px;
+     list-style: none;
+    text-transform: capitalize;
+    font-size: 19px;
+    height:78px;
+    width: 100vw;
+    background-color:rgb(49, 48, 48);
+    margin-left: 1px;
+    transform: translateX(-10PX);
+}
+ul li {
+   transform: translateX(40px);
+   gap:5px;
+}
+select{
+    background-color:rgb(49, 48, 48) ;
+}
+.select:active{
+    width:300px;
+    height: 700px;
+    background-color: black;
+}
+/* navigation menu texts*/
+.sa:hover{
+    color:greenyellow;
+    cursor: pointer;
+}
+.ta:hover{
+    color:yellow;
+    cursor: pointer;
+    display: inline;
+}
+.ba:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+.na:hover{
+    color:gold;
+    cursor:pointer;
+}
+
+.sa{
+    font-family: ' Georgia Times New Roman', Times, serif;
+    position: relative;
+    left:211px;
+}
+.ta{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left:210px;
+    gap:1px;
+    display: inline-flex;
+}
+.ba{
+    font-family: ' Georgia Times New Roman', Times, serif;
+    position: relative;
+    left:210px;
+}
+.na{
+    font-family: ' Georgia Times New Roman', Times, serif;
+    position: relative;
+    left:210px;
+    
+}
+
+.dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style for the dropdown button */
+    .dropdown-button {
+        background-image: linear-gradient(45deg, red,blueviolet);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 0px;
+        left:500px;
+        margin-right: 900px;
+    }
+ 
+    /* Style for the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 660px;
+        height:480px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        background-image: linear-gradient(45deg,rgb(165, 4, 4),rgb(53, 52, 52))
+    }
+
+    /* Style for dropdown items */
+    .dropdown-content a {
+        color: white;
+        padding: 12px 17px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color on hover */
+    .dropdown-content a:hover {
+        background-image: linear-gradient(45deg,rgb(165, 4, 4),rgb(53, 52, 52));
+        color: white;
+    }
+
+    /* Show the dropdown content when the button is clicked */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    /* anime website name */
+    .s{
+       margin-left: -680px;
+        width:79px;
+        height:70px;
+        border-radius: 20px;
+        justify-content:center;
+        background-color: rgb(49, 48, 48);
+        position: relative;
+        left:370px;
+        display: flex;
+        align-items: center;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Poppins', sans-serif;
+        transform: translateX(-180px);
+        margin-left: 200px;
+    }
+    .s{
+        color:white;
+    }
+    .Shanks{
+        color: red;
+        font-family: 'Black Ops One', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+    .s:hover{
+        color:red;
+        cursor: pointer;
+    }
+    .ji{
+    transform: translateX(450px);
+    }
+    .ji:hover{
+        color:green;
+    }
+    /* anime section 1*/
+      .wq{
+        transform: translateX(450px);
+      }
+    .e{
+        width: 90px;
+        height: 45px;
+      transform: translateX(-550px);
+      border-radius: 30px;
+    }
+    /* one piece */
+     .qw{
+        border-radius: 10px;
+        cursor: pointer;
+        width:13em;
+        height:21em;
+        transform: translateY(261px);
+        position: relative;
+      left:45px;
+    }
+    /* naruto */
+    .io{
+        border-radius: 10px;
+        cursor:pointer;
+        width:13em;
+        height:21em;
+        position: relative;
+        left:21px;
+        transform: translateY(250px);
+    }
+    /* i got a cheat skill in another world*/
+    .treat{
+     
+        border-radius: 10px;
+        cursor: pointer;
+        width:13em;
+        height:21em;
+        transform: translateY(256px);
+        position: relative;
+        left:18px;
+    }
+    /* Mob psycho 100 */
+    .mp{
+        border-radius: 10px;
+       cursor: pointer;
+        width:12.8em;
+        height:21.1em;
+        transform: translateY(259px);
+        position: relative;
+        left:25px;
+    }
+    /* hell's paradis */
+    .em{
+        border-radius: 10px;
+        cursor:pointer;
+        align-self: flex-start;
+        width:13em;
+        height:21em;
+        transform: translateY(260px);
+        position: relative;
+       left:35px;
+    }
+    /* anime section 2 */
+    /* tokyo revengers */
+    .rem{
+        width:210px;
+        height:21em;
+        border-radius: 10px;
+      position: relative;
+      left:28px;
+      transform: translateY(250px);
+    }
+    /* jujutsu kaisen */
+    .en{
+        position: relative;
+        left:4px;
+        transform: translateY(250px);
+        border-radius: 10px;
+        width:14em;
+        height:21em;
+    }
+    .rt{
+        display: flex;
+        flex-wrap: wrap;
+        gap:10px;
+        margin-bottom:  10px;
+    }
+ .lorem{
+        display: flex;
+        margin-bottom: 25px;
+        flex-wrap: wrap;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+    }
+    
+    main {
+        padding-top: 78px; /* Adjust this value to match your navigation bar's height */
+    }
+    .bhr{
+        display: block;
+    }
+     /* demon slayer */
+    .vanila{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        position: relative;
+        left:9px;
+        transform: translateY(250px);
+    }
+    /* Mashle */
+    .srcr{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        position: relative;
+        left:13px;
+        transform: translateY(250px);
+    }
+    /* anime section 3 */
+    /* code geass */
+    .rtse{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+       position: relative;
+       left: 34px;
+       transform: translateY(250px);
+    }
+    /* blue lock */
+    .ote{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        transform: translateY(297px);
+        position: relative;
+        left:49px;
+    }
+     /* Black clover */
+    .ddd{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        transform: translateY(297px);
+        position: relative;
+        left:42px;
+    }
+     /* Akame Ga kill */
+    .drd{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        transform: translateY(297px);
+        position: relative;
+        left:18px;
+    }
+    /* Ragnarok */
+    .swe{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        transform: translateY(297px);
+        position: relative;
+        left:61px;
+    }
+    /* vinland saga */
+    .ahskmlnr{
+        width:13em;
+        height:21em;
+        border-radius: 10px;
+        transform: translateY(260px);
+        position: relative;
+        left:52px;
+    }
+ main ul li{
+    display: inline;
+    margin-left: -180px;
+    padding:-293px;
+    gap: 10px;
+}
+/* Hajime No ipoo*/
+.nana{
+    position: relative;
+    left:57px;
+    transform: translateY(260px);
+    border-radius: 10px;
+    width:13em;
+    height:21em;
+}
+/* Inazuma eleven */
+.sha{
+    position: relative;
+    left:23px;
+    transform: translateY(297px);
+    border-radius: 10px;
+    height: 21em;
+    width:13em
+}
+/* Bleach */
+.rtyo{
+    transform: translateY(297px);
+    width:13em;
+    height:21em;
+    left:2em;
+    border-radius: 0.6em;
+    position: relative;
+}
+/* h3 */
+/* Ragnarok */
+.sanji h3{
+    transform: translateY(304px);
+    position: relative;
+    left:120px;
+    color:white;
+   font-family: 'Times New Roman', Times, serif;
+}
+/* Blue lock */
+.zoro h3{
+    transform: translateY(304px);
+    position: relative;
+    left:120px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Black clover */
+.luffy h3{
+    transform: translateY(304px);
+    position: relative;
+    left:100px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Bleach */
+.dgdg h3{
+    transform: translateY(304px);
+    position: relative;
+    left:100px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Inazuma Eleven */
+.oh h3{
+    transform: translateY(304px);
+    position: relative;
+    left:50px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Akame Ga kill */
+.haha h3{
+    transform: translateY(304px);
+    position: relative;
+    left:50px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Naruto */
+.Naruto h3{
+    transform: translateY(261px);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:85px;
+}
+/* Vinland Saga */
+.Sasuke h3{
+    transform: translateY(260px);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:100px;
+}
+/*one piece */
+.Kakashi h3{
+    transform: translateY(262px);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:100px;
+}
+/* hell's paradise*/
+.Oro h3{
+    transform: translateY(261px);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:70px;
+}
+/* Mob psycho 100 */
+.bbb h3{
+    transform: translateY(261px);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:50px;
+}
+/* I got a cheat skill in another world */
+.brb h3{
+    transform: translateY(266px);
+    font-size: 11px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left:12px;
+}
+/* code geass*/
+.bdb h3{
+ transform: translateY(253px);
+ position: relative;
+ left:90px;
+ color: white;
+}
+/* Tokyo Revengers */
+.hhr h3{
+transform: translateY(253px);
+position: relative;
+left: 70px;
+color: white;
+}
+/*Naruto*/
+.gaga h3{
+transform: translateY(253px);
+position: relative;
+left: 90px;
+color: white;
+}
+/* Mashle */
+.gogo h3{
+transform: translateY(253px);
+position: relative;
+left: 80px;
+color: white;
+}
+/* Demon Slayer*/
+.nono h3{
+    transform: translateY(252px);
+    position: relative;
+left: 50px;
+color: white;
+}
+/*jujutsu kaisen */
+.bobo h3{
+    transform: translateY(253px);
+    position: relative;
+left: 50px;
+color: white;
+}
+/*one piece */
+.pages{
+    position: relative;
+    bottom: 70px;
+    width:100vw;
+    height:1000px;
+    left:2px;
+}
+
+.ocho h3{
+    color: white;
+    position: relative;
+    top:-420px;
+    z-index: 70;
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    left:40px;
+
+}
+.ocho button{
+    background-image: linear-gradient(45deg,red,rgb(51, 51, 51));
+    position: relative;
+    bottom:210PX;
+    left:50px;
+    z-index: 60;
+    padding:  20px 40px;
+    border: none;
+    color:white;
+    border-radius: 10px;
+   cursor: pointer;
+   font-size: 18px;
+}
+.lorem img:hover{
+ cursor: pointer;
+ position: relative;
+   top:-5px;
+}
+.lorem img h3{
+    margin-bottom: -10px;
+    font-family: 'Georgia', sans-serif;
+}
+.lorem h3:hover{
+   cursor: pointer;
+}
+
+.lorem img{
+    display: flex;
+    justify-content: flex-end;
+    stroke: url();
+    scale: 10s;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto;
+    gap: 10px;
+    color:brown;
+}
+section img{
+    width:400px;
+    height:300px;
+    border-radius: 10px;
+}
+.angular{
+    transform: translateY(-369px);
+    position: relative;
+    left:10px;
+}
+section h3{
+    padding: 1px;
+}
